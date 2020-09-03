@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #717A91;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+
+header{
+	background-color: #000000;
+	padding: 20px 0;
+	text-align: left;
+}
+
+#hero{
+	background-image: url("../img/v36-intro.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #FFF;
+	padding: 100px 0;	
+}
+
+#hero h1{
+	font-size: 70px;
+	font-weight: 700;
+}
+
+#hero h2{
+	font-size: 24px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	color: #cacaca;
+}
+
+#hero .btn, #products .btn, .btn-azul, .btn-blanco{
+	text-transform: uppercase;
+	padding: 15px 40px;
+	font-weight: 600px;
+	letter-spacing: 1px;
+	border-radius: 40px;
+}
+
+.title{
+	font-weight: 700;
+	text-align: center;
+	font-size: 50px;
+	color: #303132;
+	margin-bottom: 40px;
+}
+
+.subtitle{
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+
+.section{
+	padding: 80px 0;
+}
+
+#wwd{
+	text-align: center;
+}
+
+#wwd article h4{
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #303132;
+	letter-spacing: 1px;
+}
+
+#products{
+	background-color: #000000;
+	color: #ffffff;
+}
+
+#products .title{
+	text-align: left;
+	color: #fff;
+}
+
+#products .subtitle{
+	text-align: left;
+	color: #d2d2d2;
+	font-size: 18px;
+}
+
+.titlepad{
+	padding-top: 100px;
+}
+
+#prods .title{
+	text-align: left;
+	margin-top: 130px;
+	margin-bottom: 5px;
+}
+
+#prods h3{
+	text-transform: uppercase;
+	color: #4859fc;
+	font-size: 13px;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+}
+
+#prods p{
+	font-size: 20px;
+}
+
+.btn-azul{
+	padding: 10px 30px;
+	font-size: 13px;
+	font-weight: 600;
+	background-color: #4859fc;
+	border: 0;
+}
+
+.btn-blanco{
+	padding: 10px 30px;
+	font-size: 13px;
+	font-weight: 600;
+	background-color: #fff;
+	color: #979797;
+	border: 2px solid #979797;
+	text-transform: uppercase;
+	border-radius: 40px;
+	margin-left: 20px;
+}
+
+.btn-blanco:hover{
+	background-color: #4859FC;
+	border-color: #4859FC;
+}
+
+#reviews{
+	background-color: #4859FC;
+	text-align: center;
+}
+
+#reviews .title{
+	color: #fff;
+}
+
+#reviews article{
+	padding: 0 20px;
+}
+
+#reviews .info-reviews{
+	background-color: #fff;
+	padding: 35px 20px;
+	box-shadow: 0px 0px 10px 10px rgba(52, 62, 167, 1);
+}
+
+.info-reviews h3{
+	color: #203132;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-top: 30px;
+}
+
+.info-reviews h4{
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.info-reviews p{
+	font-size: 16px;
+}
+
+#reviews article:first-child,
+#reviews article:last-child{
+	margin-top: 0px;
+}
+
+#reviews article:nth-child(2){
+	margin-top: -25px;
+}
+
+#reviews .row{
+	padding-top: 40px;
+}
+
+
